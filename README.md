@@ -1,6 +1,4 @@
-Below is a sample **README.md** that maintains a formal tone while concisely describing what was done in the project:
 
----
 
 # CUDA RGB to Grayscale Conversion
 
@@ -64,6 +62,3 @@ The output of the CUDA-based conversion has been validated against a CPU impleme
 
 The core CUDA code is derived from samples provided by NVIDIA Corporation and is subject to the NVIDIA end user license agreement (EULA). Additional modifications and the project as a whole are provided under the MIT License.
 
----
-
-This README provides a concise, formal description of the project without delving into instructional details, clearly stating what was accomplished.
