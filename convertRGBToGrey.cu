@@ -19,7 +19,7 @@
 
 __global__ void convert(uchar *d_r, uchar *d_g, uchar *d_b, uchar *d_gray, int rows, int columns)
 {
-    //To convert from RGB to grayscale, use the average of the values in d_r, d_g, d_b and place in d_gray
+    
     
     int row = blockIdx.x;
     int col = blockIdx.y * (blockDim.y * blockDim.z) + threadIdx.z * blockDim.y + threadIdx.y;
