@@ -1,8 +1,6 @@
+# CUDA RGB to Grayscale Converter
 
-
-# CUDA RGB to Grayscale Conversion
-
-This repository contains a CUDA-based implementation for converting an RGB image to grayscale. The conversion is achieved by averaging the red, green, and blue channels of each pixel. The project demonstrates GPU memory management, kernel execution, and validation against a CPU-based implementation.
+This project demonstrates CUDA-based parallel computing by converting RGB images to grayscale. The conversion is performed on the GPU using CUDA kernels for maximum performance.
 
 ## Overview
 
@@ -34,9 +32,13 @@ The application performs the following operations:
 
 ## Requirements
 
-- **CUDA Toolkit** (version 11 or higher recommended)
-- **OpenCV** (version 4.x or later)
-- A CUDA-capable NVIDIA GPU
+- NVIDIA CUDA Toolkit
+- OpenCV library
+- GCC 11 (for CUDA compatibility)
+
+## Setup
+
+Before building, run the compatibility setup script:
 
 ## Build and Execution
 
